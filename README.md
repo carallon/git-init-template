@@ -7,7 +7,7 @@ configuration, and other defaults.
 ## Quick start
 
 ```sh
-git clone https://github.com/KoviRobi/git-init-template ~/.config/git/template
+git clone https://github.com/carallon/git-init-template ~/.config/git/template
 git config --global init.templateDir ~/.config/git/template
 ```
 
