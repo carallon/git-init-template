@@ -6,9 +6,14 @@ configuration, and other defaults.
 
 ## Quick start
 
+Clone this into somewhere you want, one recommendation is the same
+directory as your global git config sits in (i.e. `~/.config/git` where
+`~` is your home folder on Unix, for Windows it's either `%UserProfile%`
+for cmd or `$env:UserProfile` for PowerShell).
+
 ```sh
-git clone https://github.com/carallon/git-init-template ~/.config/git/template
-git config --global init.templateDir ~/.config/git/template
+git clone https://github.com/carallon/git-init-template some/path
+git config --global init.templateDir /full/path/to/some/path
 ```
 
 From now on, `git init` (and `git clone`) will copy the contents of that
