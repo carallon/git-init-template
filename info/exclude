@@ -1,6 +1,98 @@
+# vi: filetype=gitignore
+# -*- mode: gitignore; -*-
+# kak: filetype=git-ignore
+
 # git ls-files --others --exclude-from=.git/info/exclude
 # Lines that start with '#' are comments.
 # For a project mostly in C, the following would be a good set of
 # exclude patterns (uncomment them if you want to use them):
 # *.[oa]
 # *~
+
+# From https://github.com/github/gitignore/raw/main/Global/VisualStudioCode.gitignore
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+!*.code-workspace
+
+# Built Visual Studio Code Extensions
+*.vsix
+
+
+# From https://github.com/github/gitignore/raw/main/Global/Emacs.gitignore
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+# Org-mode
+.org-id-locations
+*_archive
+
+# flymake-mode
+*_flymake.*
+
+# eshell files
+/eshell/history
+/eshell/lastdir
+
+# elpa packages
+/elpa/
+
+# reftex files
+*.rel
+
+# AUCTeX auto folder
+/auto/
+
+# cask packages
+.cask/
+dist/
+
+# Flycheck
+flycheck_*.el
+
+# server auth directory
+/server/
+
+# projectiles files
+.projectile
+
+# directory configuration
+.dir-locals.el
+
+# network security
+/network-security.data
+
+# undo-tree
+*.~undo-tree~
+
+
+# From https://github.com/github/gitignore/raw/main/Global/Vim.gitignore
+# Swap
+[._]*.s[a-v][a-z]
+# comment out the next line if you don't need vector files
+!*.svg
+[._]*.sw[a-p]
+[._]s[a-rt-v][a-z]
+[._]ss[a-gi-z]
+[._]sw[a-p]
+
+# Session
+Session.vim
+Sessionx.vim
+
+# Temporary
+.netrwhist
+*~
+# Auto-generated tag files
+tags
+# Persistent undo
+[._]*.un~
